@@ -1,0 +1,59 @@
+# baseURL = "https://mtane0412.github.io/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "mtane0412"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "Masayuki Tanenobu"
+  headline = "A useless member of society"
+  image = "author.png"  # path relative to static directory
+
+  links = [
+    { scrapbox = { href = "https://scrapbox.io/mtane0412", text = "Scrapbox" }},
+    { twitter = "https://twitter.com/mtane0412" },
+    { twitch = "https://twitch.tv/tanenob" },
+    { discord = "https://discord.gg/aWwM2TeENV" },
+    { steam = "https://steamcommunity.com/id/tanenobu" },
+    { github = "https://github.com/mtane0412" },
+    { facebook = "https://facebook.com/mtane0412" },
+    { instagram = "https://instagram.com/mtane0412" },
+    { amazon = "https://www.amazon.jp/hz/wishlist/ls/36AQEMD64FHKR" },
+    # { email = "mailto:hello@your_domain.com" },
+    # { link = "https://link-to-some-website.com/" },
+    # { apple = "https://www.apple.com" },
+    # { codepen = "https://codepen.io/username" },
+    # { dev = "https://dev.to/username" },
+    # { dribbble = "https://dribbble.com/username" },
+    # { flickr = "https://www.flickr.com/photos/username/" },
+    # { foursquare = "https://foursquare.com/username" },
+    # { gitlab = "https://gitlab.com/username" },
+    # { google = "https://www.google.com/" },
+    # { keybase = "https://keybase.io/username" },
+    # { kickstarter = "https://www.kickstarter.com/profile/username" },
+    # { lastfm = "https://lastfm.com/user/username" },
+    # { linkedin = "https://linkedin.com/in/username" },
+    # { mastodon = "https://mastodon.instance/@username" },
+    # { medium = "https://medium.com/username" },
+    # { microsoft = "https://www.microsoft.com/" },
+    # { patreon = "https://www.patreon.com/username" },
+    # { pinterest = "https://pinterest.com/username" },
+    # { reddit = "https://reddit.com/user/username" },
+    # { slack = "https://workspace.url/team/userid" },
+    # { snapchat = "https://snapchat.com/add/username" },
+    # { soundcloud = "https://soundcloud.com/username" },
+    # { telegram = "https://t.me/username" },
+    # { tiktok = "https://tiktok.com/@username" },
+    # { tumblr = "https://username.tumblr.com" },
+    # { whatsapp = "https://wa.me/phone-number" },
+    # { youtube = "https://youtube.com/username" },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
